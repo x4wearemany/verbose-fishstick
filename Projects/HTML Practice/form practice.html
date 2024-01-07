@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <form action="/lolno.php" target="_self" method="">
+        <form action="/lolno.php" target="_self" method="post">
 
             <label for="fn">First Name</label> <br>
             <input type="text" name="fn" id="fn"> <br>
@@ -34,6 +34,17 @@
             <label for="an">Anime</label> <br>
             <input type="checkbox" id="mv">
             <label for="mv">Movies</label>
+
+            <br><br>
+
+            <label for="wc">Weapon Class</label> <br>
+            <select name="wc" id="wc">
+                <option value="sn">Sniper</option>
+                <option value="smg">Sub Machine Gun</option>
+                <option value="lmg">Light Machine Gun</option>
+                <option value="ar">Assault Rifle</option>
+                <option value="sg">Shotgun</option>
+            </select>
 
             <br><br><br>
 
