@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>forum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <hr />
+    <h2>Please enter your information</h2>
+
+    <form action="yeesssss.html">
+      <label for="firstName" style="font-size: x-large">Name *</label><br />
+      <input
+        required
+        type="text"
+        name="firstName"
+        id="firstName"
+        placeholder="First Name"
+      />
+      <input
+        required
+        type="text"
+        name="lastName"
+        id="lastName"
+        placeholder="Last Name"
+      />
+      <br /><br />
+      <label for="Email" style="font-size: x-large">E-mail *</label><br />
+      <input
+        required
+        type="email"
+        name="Email"
+        id="Email"
+        placeholder="E-mail"
+      />
+      <br /><br />
+      <label for="Telephone" style="font-size: x-large">Telephone *</label
+      ><br />
+      <input
+        required
+        type="tel"
+        name="Telephone"
+        id="Telephone"
+        placeholder="(xxx)"
+        size="3"
+        maxlength="3"
+      />
+      -
+      <input
+        required
+        type="tel"
+        name="Telephone"
+        id="Telephone"
+        placeholder="xxx"
+        size="3"
+        maxlength="3"
+      />
+      -
+      <input
+        required
+        type="tel"
+        name="Telephone"
+        id="Telephone"
+        placeholder="xxxx"
+        size="4"
+        maxlength="4"
+      />
+      <br /><br />
+      <label for="DOB" style="font-size: x-large">DOB *</label><br />
+      <input required type="date" name="DOB" id="DOB" />
+      <br /><br />
+      <label for="Gender" style="font-size: x-large">Gender</label><br /><br />
+      <input type="radio" name="Gender" id="Male" value="Male" />
+      <label for="Male">Male</label>
+      <input type="radio" name="Gender" id="Female" value="Female" />
+      <label for="Female">Female</label>
+      <input type="radio" name="Gender" id="Other" value="Other" />
+      <label for="Other">Other</label>
+      <br /><br />
+      <label for="Household" style="font-size: x-large">Household Size *</label
+      ><br />
+      <input
+        required
+        type="number"
+        name="Household"
+        id="Household"
+        min="1"
+        max="8"
+        placeholder="1"
+      />
+      <br /><br />
+      <label for="Employment" style="font-size: x-large"
+        >Employment status *</label
+      ><br />
+      <select required name="Employment" id="Employment">
+        <option value="Employed">Employed</option>
+        <option value="Unemployed">Unemployed</option>
+      </select>
+      <br /><br />
+      <label for="Income" style="font-size: x-large">Annual Income *</label
+      ><br />
+      <select required name="Income" id="Income">
+        <option value="-40">40,000 or less</option>
+        <option value="41-80">41,000-80,000</option>
+        <option value="81-">81,000 or more</option>
+      </select>
+      <br /><br />
+      <label for="Comments" style="font-size: x-large"
+        >Additional information/Comments</label
+      ><br />
+      <textarea
+        name="Comments"
+        id="Comments"
+        placeholder="Please Comment here"
+        cols="40"
+        rows="6"
+      ></textarea>
+      <br /><br />
+      <label for="Password" style="font-size: x-large">Password *</label><br />
+      <input
+        required
+        type="password"
+        name="Password"
+        id="Password"
+        placeholder="Password"
+      /><br />
+      <label for="confirmPassword" style="font-size: x-large"
+        >Confirm Password *</label
+      ><br />
+      <input
+        required
+        type="password"
+        name="confirmPassword"
+        id="confirmPassword"
+        placeholder="Confirm Password"
+      />
+      <br /><br />
+      <input required type="checkbox" name="TOS" id="TOS" />
+      <label for="TOS" style="font-size: x-large"
+        >By checking the box you agree to our
+        <a href="TOS">Terms of Service.</a>*</label
+      >
+      <br /><br /><br />
+      <input type="submit" name="submit" id="submit" />
+    </form>
+  </body>
+</html>
