@@ -8,44 +8,48 @@
   <body>
     <header>
       <h1>MyTube - Video Upload</h1>
-      <hr>
+      <hr />
     </header>
 
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="pages/techcollection.html">Tech Collection</a>
-        <a href="pages/nuclearcollection.html">Nuclear Collection</a>
-        <a href="pages/zeldacollection.html">Zelda Collection</a>
-      </nav>
-      
-    <br>
-      
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="pages/techcollection.html">Tech Collection</a>
+      <a href="pages/nuclearcollection.html">Nuclear Collection</a>
+      <a href="pages/zeldacollection.html">Zelda Collection</a>
+    </nav>
+
+    <br />
+
     <form action="action.php">
       <label for="videotitle"><h2>Video Title</h2></label>
-      <input 
-      required
-      type="text"
-      name="videotitle"
-      id="videotitle"
-      placeholder="Video Title"
-      size="30">
+      <input
+        required
+        type="text"
+        name="videotitle"
+        id="videotitle"
+        placeholder="Video Title"
+        size="30"
+      />
 
       <label for="description"><h2>Description</h2></label>
-      <textarea 
-      name="description" 
-      id="description"
-      placeholder="Video Description" 
-      cols="29" 
-      rows="5"
+      <textarea
+        name="description"
+        id="description"
+        placeholder="Video Description"
+        cols="29"
+        rows="5"
       ></textarea>
 
       <label for="upload"><h2>Video</h2></label>
-      <input required type="file" 
-      name="upload" 
-      id="upload"
-      accept=".mp4,.mov,.avi,.wmv,.flv,.webm,.hevc,">
+      <input
+        required
+        type="file"
+        name="upload"
+        id="upload"
+        accept=".mp4,.mov,.avi,.wmv,.flv,.webm,.hevc,"
+      />
 
-      <br><br>
+      <br /><br />
 
       <select name="selcol" id="selcol" required>
         <option disabled selected>Select Collection</option>
@@ -53,28 +57,22 @@
         <option value="col2">Nuclear Collection</option>
         <option value="col3">Zelda Collection</option>
       </select>
-      
-      <br><br>
-      <input type="radio" name="privacy" id="public">
+
+      <br /><br />
+      <input type="radio" name="privacy" id="public" />
       <label for="public">Public</label>
-      <input type="radio" name="privacy" id="private">
+      <input type="radio" name="privacy" id="private" />
       <label for="private">Private</label>
 
-      <br><br><br>
+      <br /><br /><br />
 
       <button type="submit">Upload Video</button>
     </form>
 
-    <br><br><br><br><br>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />  
 
     <footer>
-      <p>&copy; 2024 Yeetus LLC. All rights reserved.</p>
-      <ul>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms of Service</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
+      <p>&copy: Copyright.</p>
     </footer>
-
   </body>
 </html>
