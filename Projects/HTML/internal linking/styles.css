@@ -1,0 +1,16 @@
+table,tr,td{
+    vertical-align: top;
+}
+h2{
+    margin-left: 25px;
+}
+.h3{
+    vertical-align: top;
+    margin-left: 20px;
+    color: aliceblue;
+    background: black;
+    overflow: hidden;
+}
+p{
+    margin-left: 20px;
+}
