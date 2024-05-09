@@ -2,19 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #322C2B;
   }
 
   .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #E4C59E;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
   }
   
-  h1 {
+  h1, h3 {
+    margin-top: -10px;
+  }
+
+  h1, h2, h3 {
     text-align: center;
   }
 
@@ -27,11 +31,27 @@ body {
   }
 
   .intro {
-    word-spacing: .2em;
+    border-style: solid;
+    word-spacing: .3em;
     text-align: center;
+  }
+
+  .legacy {
+    word-spacing: .25em;
+  }
+
+  .quote {
+    text-align: center;
+    font-style: italic;
   }
 
   li {
     line-height: 22px;
     padding-bottom: 15px;
+  }
+  
+  hr {
+    color: #322C2B;
+    background-color: #322C2B;
+
   }
