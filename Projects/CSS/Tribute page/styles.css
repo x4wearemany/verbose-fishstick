@@ -31,13 +31,9 @@ body {
   }
 
   .intro {
-    border-style: solid;
+    padding: 10px;
     word-spacing: .3em;
     text-align: center;
-  }
-
-  .legacy {
-    word-spacing: .25em;
   }
 
   .quote {
@@ -46,12 +42,19 @@ body {
   }
 
   li {
-    line-height: 22px;
-    padding-bottom: 15px;
+    padding: 10px;
+    list-style-type: none;
+    margin-right: 45px;
+    margin-bottom: 10px;
   }
   
   hr {
-    color: #322C2B;
-    background-color: #322C2B;
+    border-color: #322C2B;
+  }
 
+  .bg, li {
+    padding: 10px;
+    border-style: solid;
+    border-color: #803D3B;
+    background-color: #AF8260;
   }
