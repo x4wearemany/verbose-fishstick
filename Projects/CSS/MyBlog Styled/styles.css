@@ -1,0 +1,55 @@
+.jersey-25-charted-regular {
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #e4ebf7;
+    text-align: left;
+  }
+
+  .container {
+    background-image: radial-gradient(circle, #C2D9FF 20%, #e4ebf7);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #C2D9FF;
+    border-radius: 5px;
+  }
+
+  h1{
+    text-align: left;
+    font-size: 230%;
+  }
+  p {
+    padding: 20px;
+    word-spacing: .35em;
+  }
+
+  .characters, .impact {
+    word-spacing: .2em;
+  }
+
+
+  img {
+    width: 600px;
+    border-radius: 3px;
+  }
+
+  .jarjar {
+    margin-left: 8.5%;
+    width: 500px; 
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .sm{
+    object-fit: cover;
+    border-radius: 25%;
+    width: 50px;
+  }
