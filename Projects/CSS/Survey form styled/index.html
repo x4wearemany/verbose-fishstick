@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Styled Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1>Devslopes Survey Form</h1>
+        <p class="thanks">Thank you for your feedback we greatly appreciate it</p>
+    </header>
+
+    <div class="form">
+        <form action="form.html">
+            <label for="name">Name</label><br>
+            <input 
+                required
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+            >
+            <br>
+            <br>
+            <label for="email">Email</label><br>
+            <input 
+                required
+                type="text" 
+                name="email" 
+                id="email"
+                placeholder="Enter your Email"
+            >
+            <br>
+            <br>
+            <label for="age">Age (optional)</label><br>
+            <input 
+                type="text" 
+                name="age" 
+                id="age"
+                placeholder="Age"
+            >
+            <br>
+            <br>
+            <label for="role">Which option best describes your current role?</label><br>
+            <select name="role" id="role">
+                <option disabled value="select">Select current role</option>
+                <option value="student">Student</option>
+                <option value="fulltime">Full Time Job</option>
+                <option value="fulllearner">Part Time Learner</option>
+                <option value="no">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <br>
+            <label for="recommend">Would you recommend Devslopes to a friend?</label><br>
+                <input type="radio" name="recommend" id="definitely">
+                <label for="definitely">Definitely</label><br>
+                <input type="radio" name="recommend" id="maybe">
+                <label for="maybe">Maybe</label><br>
+                <input type="radio" name="recommend" id="notsure">
+                <label for="notsure">Not Sure</label>
+            <br>
+            <br>
+            <label for="favorite">What is your favorite feature of Devslopes?</label><br>
+            <select  required name="favorite" id="favorite">
+            <option disabled value="select">Select an option</option>
+            <option value="Schallenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="Scommunity">Community</option>
+                <option value="mentorship">Mentorship</option>
+            </select>
+            <br>
+            <br>
+            <label for="improvement">What would you like to see improved?</label>
+            <div class="check">(Check all that apply)</div><br>
+            <input type="checkbox" name="front" id="front">
+            <label for="front">Front End Projects</label><br>
+            <input type="checkbox" name="back" id="back">
+            <label for="back">Back End Projects</label><br>
+            <input type="checkbox" name="challenges" id="challenges">
+            <label for="challenges">Challenges</label><br>
+            <input type="checkbox" name="videos" id="videos">
+            <label for="videos">Videos</label><br>
+            <input type="checkbox" name="meet" id="meet">
+            <label for="meet">Meetups</label><br>
+            <input type="checkbox" name="community" id="community">
+            <label for="community">Community</label>
+            <br>
+            <br>
+            <label for="suggestions">Any comments or suggestions?</label><br>
+            <textarea 
+                name="suggestions" 
+                id="suggestions"
+                placeholder="Enter your comments here..."
+            ></textarea>
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
