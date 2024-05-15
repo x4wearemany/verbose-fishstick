@@ -11,31 +11,32 @@
         <h1>Devslopes Survey Form</h1>
         <p class="thanks">Thank you for your feedback we greatly appreciate it</p>
     </header>
-
-    <div class="form">
-        <form action="form.html">
+    
+    <div class="container"></div>
+        <div class="form">
+            <form action="" method="get">
             <label for="name">Name</label><br>
-            <input 
+            <input class="inText"
                 required
                 type="text"
                 name="name"
                 id="name"
                 placeholder="Enter your name"
-            >
-            <br>
+                >
+                <br>
             <br>
             <label for="email">Email</label><br>
-            <input 
+            <input class="inText"
                 required
                 type="text" 
                 name="email" 
                 id="email"
                 placeholder="Enter your Email"
-            >
-            <br>
-            <br>
-            <label for="age">Age (optional)</label><br>
-            <input 
+                >
+                <br>
+                <br>
+                <label for="age">Age (optional)</label><br>
+                <input class="inText"
                 type="text" 
                 name="age" 
                 id="age"
@@ -44,7 +45,7 @@
             <br>
             <br>
             <label for="role">Which option best describes your current role?</label><br>
-            <select name="role" id="role">
+            <select class="inOpt" name="role" id="role">
                 <option disabled value="select">Select current role</option>
                 <option value="student">Student</option>
                 <option value="fulltime">Full Time Job</option>
@@ -55,20 +56,20 @@
             <br>
             <br>
             <label for="recommend">Would you recommend Devslopes to a friend?</label><br>
-                <input type="radio" name="recommend" id="definitely">
-                <label for="definitely">Definitely</label><br>
-                <input type="radio" name="recommend" id="maybe">
-                <label for="maybe">Maybe</label><br>
-                <input type="radio" name="recommend" id="notsure">
+            <input type="radio" name="recommend" id="definitely">
+            <label for="definitely">Definitely</label><br>
+            <input type="radio" name="recommend" id="maybe">
+            <label for="maybe">Maybe</label><br>
+            <input type="radio" name="recommend" id="notsure">
                 <label for="notsure">Not Sure</label>
             <br>
             <br>
-            <label for="favorite">What is your favorite feature of Devslopes?</label><br>
+            <label class="inOpt" for="favorite">What is your favorite feature of Devslopes?</label><br>
             <select  required name="favorite" id="favorite">
             <option disabled value="select">Select an option</option>
             <option value="Schallenges">Challenges</option>
-                <option value="projects">Projects</option>
-                <option value="Scommunity">Community</option>
+            <option value="projects">Projects</option>
+            <option value="Scommunity">Community</option>
                 <option value="mentorship">Mentorship</option>
             </select>
             <br>
@@ -94,11 +95,11 @@
                 name="suggestions" 
                 id="suggestions"
                 placeholder="Enter your comments here..."
-            ></textarea>
-            <br>
-            <br>
-            <button type="submit">Submit</button>
-        </form>
-    </div>
+                ></textarea>
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
 </body>
 </html>
